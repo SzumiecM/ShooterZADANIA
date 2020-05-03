@@ -10,7 +10,7 @@ class Player(object):
 
     def __init__(self):
         self.x, self.y = screen_CENTER
-        self.surface = pygame.image.load('C:/Users/majka/OneDrive/Pulpit/player&hand.png')
+        self.surface = pygame.image.load('player&hand.png')
         #TODO Skopiuj obrazek do zmiennej rotated_surface
         self.rect = self.surface.get_rect()
         self.speed = 0.4
